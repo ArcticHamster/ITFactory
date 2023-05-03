@@ -1,5 +1,5 @@
 """
-Clasa = blueprint (retaeta) prin care putem crea obiecte
+Clasa = blueprint (reteta) prin care putem crea obiecte
 Clasa contine urmatoarele elemente importante:
 - numele clasei, unic, concis, ca sa intelegem ce fel de obiecte putem crea. Se incep cu litera mare!
 - constructor - o functie spceiala apelata ori de cate ori vrem sa creem un obiect

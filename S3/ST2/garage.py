@@ -1,5 +1,6 @@
 # sintaxa de import: from nume_fisier import nume_clasa
-"""from cars import Car
+
+from cars import Car
 
 class Dealership:
 
@@ -46,4 +47,3 @@ autoworld.describe()
 autoworld.add_car(1, 'Polo', 8000)
 autoworld.add_car(2, 'Golf', 12000)
 autoworld.add_car(3, 'Passat', 9500)
-"""
