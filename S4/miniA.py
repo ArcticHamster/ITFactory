@@ -51,7 +51,7 @@ class Masina:
     def accelereaza(self, viteza):
         if viteza < 0:
             print('Eroare, viteza nu poate fi negativa')
-        elif viteza > self.viteza_max
+        elif viteza > self.viteza_max:
             self.viteza_act = self.viteza_max
         else:
             self.viteza_act = viteza
@@ -63,4 +63,4 @@ class Masina:
 m1 = Masina ('clasa S', 200)
 print(m1.CULORI_DISPONIBILE)
 print(m1.marca)
-print(Masina.__MARCA) # nu am nevoie de un obiect ca sa accesez variabileled e la clasa
+print(Masina.__MARCA) # nu am nevoie de un obiect ca sa accesez variabilele de la clasa
