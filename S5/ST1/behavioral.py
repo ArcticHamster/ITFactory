@@ -32,7 +32,7 @@ class Blog:
 
     def notify(self):
         for obs in self.observers:
-            obs.notify(self.neame)
+            obs.notify(self.name)
 
 class User:
 
