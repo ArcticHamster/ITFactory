@@ -1,12 +1,23 @@
-def poz(list_):
-    list_poz = []
-    for number in list_:
-        if number >= 0:
-            list_poz.append(number)
-    return list_poz
+#formatare text:
+
+# text = 'LaurC'
+#
+# print(f'formatare la  stanga: *****{text:<7}*****')
+# print(f'formatare la dreapta: *****{text:>7}*****')
+# print(f'formatare la  centru: *****{text:^7}*****')
+
+class ExpressoMachine:
+
+    drinks = {
+        'expresso':(40,15,0),
+        'long coffee':(100,15,0),
+        'latte':(40,15,100)
+    }
+
+    def __init__(self,water, milk, beans):
+        self.water = water
+        self.milk = milk
+        self.beans = beans
 
 
-lista1 = poz([1, 5, -1, 4, -8])
-lista2 = poz([0, -7, -33, 81, 46, -11, 9])
-print(lista1)
-print(lista2)
+
