@@ -6,6 +6,10 @@
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.11 (first practice)" jdkType="Python SDK" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.10 (First)" jdkType="Python SDK" />
+3f3734a90eb0b9d248d9086389f23575383e2c30
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
