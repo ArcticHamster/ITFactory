@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "fname": "Maria",
+        "lname": "Popescu",
+        "age": "31",
+        "grade": "7.5"
+    },
+    {
+        "id": "2",
+        "fname": "Andrei",
+        "lname": "Ionescu",
+        "age": "26",
+        "grade": "8.0"
+    },
+    {
+        "id": "3",
+        "fname": "Adriana",
+        "lname": "Marinescu",
+        "age": "21",
+        "grade": "7.5"
+    }
+]
