@@ -12,7 +12,7 @@ Node.js
 Write a short program to read and display the text file
 
 """
-import csv
+# import csv
 
 # with open('hello.txt') as f:
 #     lines = f.read()
