@@ -118,15 +118,15 @@ Use the following format for each student (and use Python’s standard JSON modu
 	...
 ]
 """
-import json
-import csv
-
-data = []
-with open('FILES/students.csv', 'r') as csv_file:
-    reader = csv.DictReader(csv_file)
-    for row in reader:
-        data.append(row)
-print(data)
-with open('FILES/students.json', 'w') as csv_file:
-    json.dump(data, csv_file, indent=4)
-print(f'Data has been written to "{csv_file}" in JSON format')
+# import json
+# import csv
+#
+# data = []
+# with open('FILES/students.csv', 'r') as csv_file:
+#     reader = csv.DictReader(csv_file)
+#     for row in reader:
+#         data.append(row)
+# print(data)
+# with open('FILES/students.json', 'w') as csv_file:
+#     json.dump(data, csv_file, indent=4)
+# print(f'Data has been written to "{csv_file}" in JSON format')

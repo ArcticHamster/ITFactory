@@ -1,3 +1,34 @@
+"""
+SQL 
+Write a SQL statement to create a table called continents, with the following columns:
+continent_id
+continent_name
+continent_code – 2 letters code, use this link
+Using the link above, write all SQL statements needed to add all the seven continents (INSERT).
+Write a SQL statement to create a table called countries, with the following columns:
+country_code – 2 letters code (e.g. RO, US, IT, etc)
+country_name
+continent_id – foreign key
+population – number
+TEMA PENTRU MIERCURI
+Write a few SQL statements to add some countries. Here is a list of countries with their codes. Feel free to invent or approximate their populations, and use your geography knowledge for their continent. Add at least 10 countries, as diverse as possible (INSERT). Examples:
+– Romania, EU, 19mil
+– USA, NA, 330mil
+– France, EU, 70mil
+– Hungary, EU,  9mil
+– Canada, NA, 40mil
+– China, AS, 1450mil
+– Belgium, EU, 12mil
+–  Egypt, AF, 110mil
+– Australia, OC, 25mil
+Write a SQL statement to select all countries, ordered by name. Write another statement to count them all.
+Write a SQL statement to select only countries with a population greater than 20 millions. 
+Write a SQL statement to select only countries that start with a certain letter (choose one that exists for you, e.g. C in the example above).
+Write a SQL statement that groups all countries by continents, and counts them.
+Write a SQL statement that groups all countries by continent, and computes the total population per continent (SUM).
+
+"""
+
 import sqlite3
 
 # conexiunea la db (daca db nu exista, va fi creata)
